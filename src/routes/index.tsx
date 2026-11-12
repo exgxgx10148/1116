@@ -307,12 +307,12 @@ function Index() {
                 <i className="fa-solid fa-location-dot text-warmamber"></i>
                 <span>台中市西區勤美商圈老宅特區</span>
               </div>
-              <h1 className="serif-title text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-brand-900 leading-tight">
+              <h1 className="serif-title text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-brand-900 leading-tight sm:leading-[2.5rem] md:leading-none lg:leading-none">
                 在老宅的日落餘暉中，
                 <br className="hidden sm:inline" />
                 尋找創作者的靈感角落。
               </h1>
-              <p className="text-brand-700 text-sm sm:text-base lg:text-lg max-w-xl mx-auto lg:mx-0 leading-relaxed px-2 sm:px-0">
+              <p className="text-brand-700 text-sm sm:text-base lg:text-lg max-w-xl mx-auto lg:mx-0 leading-relaxed px-2 sm:px-0 sm:leading-[1.5rem] lg:leading-[1.75rem]">
                 座落於台中勤美一帶的半世紀老宅。專為旅人與創作者打造的明亮溫馨咖啡廳，伴隨手作甜點與精品飲品，沉澱您的思緒。
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3.5 sm:gap-4 pt-2 sm:pt-4">
@@ -384,7 +384,7 @@ function Index() {
               <h3 className="serif-title text-lg sm:text-xl font-bold text-brand-900 mb-2 sm:mb-3">
                 老宅改建與光影美學
               </h3>
-              <p className="text-brand-700 text-xs sm:text-sm leading-relaxed">
+              <p className="text-brand-700 text-xs sm:text-sm leading-relaxed sm:leading-[1.25rem]">
                 保留了50年代的磨石子與紅磚牆面，搭配大面玻璃窗引入勤美特區的自然光，營造明亮且溫馨的沉靜氛圍。
               </p>
             </div>
@@ -397,7 +397,7 @@ function Index() {
               <h3 className="serif-title text-lg sm:text-xl font-bold text-brand-900 mb-2 sm:mb-3">
                 旅客與創作者的聚落
               </h3>
-              <p className="text-brand-700 text-xs sm:text-sm leading-relaxed">
+              <p className="text-brand-700 text-xs sm:text-sm leading-relaxed sm:leading-[1.25rem]">
                 專為遠端工作者、文字創作者及外地旅客準備的自由角落。提供穩定插座、高速Wi-Fi與自在的交流空間。
               </p>
             </div>
@@ -410,7 +410,7 @@ function Index() {
               <h3 className="serif-title text-lg sm:text-xl font-bold text-brand-900 mb-2 sm:mb-3">
                 手作甜點與精品飲品
               </h3>
-              <p className="text-brand-700 text-xs sm:text-sm leading-relaxed">
+              <p className="text-brand-700 text-xs sm:text-sm leading-relaxed sm:leading-[1.25rem]">
                 每日新鮮手作法式馬卡龍、義式冰淇淋與特製蛋糕，完美搭配精品咖啡與特調飲品，療癒您的下午茶時光。
               </p>
             </div>
@@ -2923,7 +2923,7 @@ function Index() {
                   {lightbox?.price}
                 </span>
               </div>
-              <p className="text-brand-700 text-xs sm:text-sm leading-relaxed" id="lightbox-desc">
+              <p className="text-brand-700 text-xs sm:text-sm leading-relaxed sm:leading-[1.25rem]" id="lightbox-desc">
                 {lightbox?.desc}
               </p>
             </div>
