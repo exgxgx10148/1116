@@ -105,7 +105,7 @@ function Index() {
   }, [timerKey]);
 
   useEffect(() => {
-    setToday(new Date().toISOString().split("T")[0]);
+    setToday(new Date().toISOString().slice(0, 10));
     const onScroll = () => setShowTop(window.scrollY > 400);
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
@@ -2794,7 +2794,7 @@ function Index() {
                   </label>
                   <textarea
                     id="notes"
-                    rows="3"
+                    rows={3}
                     className="w-full px-4 py-3 rounded-xl border border-brand-200 bg-brand-50/50 text-brand-900 text-sm focus:outline-none focus:ring-2 focus:ring-brand-700 transition"
                     placeholder="例如：需要插座創作、行李寄放等..."
                   ></textarea>
