@@ -28,3 +28,7 @@ use the editor.
   own key and store it in Secrets.
 - **Secrets.** Lovable manages them. Do not put secret values in the repo.
 <!-- LOVABLE:END -->
+
+## Project rules
+
+- The home page (`src/routes/index.tsx`) is an import of a single-page Gemini Canvas café site; keep its markup and interactions in that route file and its pictures in `public/site-assets/`. Why: the import keeps one source of truth that can be compared against `.site-import/source.html`.

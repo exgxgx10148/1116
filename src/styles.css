@@ -30,6 +30,20 @@
  */
 
 @theme inline {
+  --font-sans: "Inter", "Noto Sans TC", sans-serif;
+  --font-serif: "Noto Serif TC", serif;
+  --color-brand-50: var(--brand-50);
+  --color-brand-100: var(--brand-100);
+  --color-brand-200: var(--brand-200);
+  --color-brand-300: var(--brand-300);
+  --color-brand-600: var(--brand-600);
+  --color-brand-700: var(--brand-700);
+  --color-brand-800: var(--brand-800);
+  --color-brand-900: var(--brand-900);
+  --color-cream: var(--cream);
+  --color-warmamber: var(--warmamber);
+  /* Match the shadow scale the source page was designed with. */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -74,38 +88,50 @@
 
 :root {
   --radius: 0.625rem;
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.129 0.042 264.695);
+  /* 日暮町 café palette */
+  --brand-50: oklch(0.989 0.002 67.8);
+  --brand-100: oklch(0.958 0.008 61.5);
+  --brand-200: oklch(0.906 0.017 67.6);
+  --brand-300: oklch(0.834 0.029 62.2);
+  --brand-600: oklch(0.609 0.052 55.2);
+  --brand-700: oklch(0.516 0.046 54.2);
+  --brand-800: oklch(0.421 0.037 52);
+  --brand-900: oklch(0.323 0.027 52.4);
+  --cream: oklch(0.975 0.009 78.3);
+  --warmamber: oklch(0.666 0.157 58.3);
+
+  --background: var(--cream);
+  --foreground: var(--brand-900);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.129 0.042 264.695);
+  --card-foreground: var(--brand-900);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.129 0.042 264.695);
-  --primary: oklch(0.208 0.042 265.755);
-  --primary-foreground: oklch(0.984 0.003 247.858);
-  --secondary: oklch(0.968 0.007 247.896);
-  --secondary-foreground: oklch(0.208 0.042 265.755);
-  --muted: oklch(0.968 0.007 247.896);
-  --muted-foreground: oklch(0.554 0.046 257.417);
-  --accent: oklch(0.968 0.007 247.896);
-  --accent-foreground: oklch(0.208 0.042 265.755);
+  --popover-foreground: var(--brand-900);
+  --primary: var(--brand-700);
+  --primary-foreground: var(--cream);
+  --secondary: var(--brand-100);
+  --secondary-foreground: var(--brand-800);
+  --muted: var(--brand-100);
+  --muted-foreground: var(--brand-600);
+  --accent: var(--brand-200);
+  --accent-foreground: var(--brand-800);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(0.929 0.013 255.508);
-  --input: oklch(0.929 0.013 255.508);
-  --ring: oklch(0.704 0.04 256.788);
+  --border: var(--brand-200);
+  --input: var(--brand-200);
+  --ring: var(--brand-700);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
   --chart-4: oklch(0.828 0.189 84.429);
   --chart-5: oklch(0.769 0.188 70.08);
-  --sidebar: oklch(0.984 0.003 247.858);
-  --sidebar-foreground: oklch(0.129 0.042 264.695);
-  --sidebar-primary: oklch(0.208 0.042 265.755);
-  --sidebar-primary-foreground: oklch(0.984 0.003 247.858);
-  --sidebar-accent: oklch(0.968 0.007 247.896);
-  --sidebar-accent-foreground: oklch(0.208 0.042 265.755);
-  --sidebar-border: oklch(0.929 0.013 255.508);
-  --sidebar-ring: oklch(0.704 0.04 256.788);
+  --sidebar: var(--brand-50);
+  --sidebar-foreground: var(--brand-900);
+  --sidebar-primary: var(--brand-700);
+  --sidebar-primary-foreground: var(--cream);
+  --sidebar-accent: var(--brand-100);
+  --sidebar-accent-foreground: var(--brand-800);
+  --sidebar-border: var(--brand-200);
+  --sidebar-ring: var(--brand-700);
 }
 
 .dark {
@@ -148,8 +174,42 @@
     border-color: var(--color-border);
   }
 
+  html {
+    scroll-behavior: smooth;
+  }
+
   body {
+    font-family: "Noto Sans TC", sans-serif;
     background-color: var(--color-background);
     color: var(--color-foreground);
   }
+
+  button,
+  [role="button"] {
+    cursor: pointer;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    color: oklch(0.714 0.019 261.3);
+  }
+}
+
+/* Café page headings */
+.serif-title {
+  font-family: var(--font-serif);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--brand-100);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--brand-300);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brand-600);
 }

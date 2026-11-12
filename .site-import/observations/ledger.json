@@ -1,0 +1,18 @@
+{
+  "source": "https://share.gemini.google/71mX6L188TqO (Gemini Canvas app, captured from its sandboxed frame after the 'Continue' warning)",
+  "route": "/",
+  "viewports": ["1280x900 desktop", "390x844 phone"],
+  "scrollContainer": "window",
+  "checks": [
+    {"control": "desktop nav link 菜單 Menu", "expected": "scrolls to #menu, URL /#menu", "observed": "menu top 0, URL /#menu", "status": "pass", "shots": ["shots/desk_menu.png"]},
+    {"control": "phone hamburger #menu-btn", "expected": "dropdown with 6 links + CTA, closes after link tap", "observed": "opened, closed after tapping 菜單 Menu, landed on #menu", "status": "pass", "shots": ["shots/phone_mobilemenu.png", "shots/src_phone_mobilemenu.png"]},
+    {"control": "hero CTAs 預約您的午後時光 / 探索精選菜單", "expected": "anchor to #booking / #menu", "observed": "same-page anchors preserved", "status": "pass"},
+    {"control": "menu category tabs", "expected": "冰淇淋 shows 9 icecream items; 全部品項 shows 36", "observed": "9 icecream / 36", "status": "pass", "shots": ["shots/desk_tab_icecream.png", "shots/phone_tab_icecream.png"]},
+    {"control": "menu image lightbox", "expected": "opens with large image, name, price, description; closes via Escape, backdrop, X", "observed": "Rose Macaron NT$ 120 shown, body scroll locked, Escape and backdrop close", "status": "pass", "shots": ["shots/desk_lightbox.png", "shots/phone_lightbox.png"]},
+    {"control": "gallery carousel dots / arrows / 4s autoplay", "expected": "dot 4 -> slide 3, next/prev wrap, auto-advance", "observed": "3 -> 4 -> 2 -> auto 3", "status": "pass", "shots": ["shots/desk_carousel_dot3.png"]},
+    {"control": "booking form submit", "expected": "success box with summary, form reset, date defaults to today", "observed": "summary rendered, fields reset, date = today, min = today", "status": "pass", "shots": ["shots/desk_booking_success.png", "shots/phone_booking_success.png"]},
+    {"control": "back-to-top button", "expected": "visible after 400px scroll, returns to top", "observed": "opacity 1 when scrolled, scrollY 0 after click", "status": "pass"},
+    {"control": "map", "expected": "Google map of 台中市西區美村路一段", "observed": "source used a Gemini-generated map frame; replaced with a standard Google Maps embed of the same address", "status": "pass", "shots": ["shots/desk_info.png"]}
+  ],
+  "assets": "All 79 used pictures downloaded from placehold.co into public/site-assets; mapping in ../asset-map.json"
+}
