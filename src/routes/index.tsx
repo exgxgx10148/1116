@@ -488,7 +488,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/rose-macaron-600x450-f8e5e5.png",
+                    "/site-assets/menu/rose-macaron.jpg",
                     "玫瑰覆盆子馬卡龍",
                     "NT$ 120",
                     "嚴選有機玫瑰純露與法式覆盆子果醬，外酥內軟，香氣雅緻。",
@@ -496,7 +496,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/rose-macaron-400x300-f8e5e5.png"
+                  src="/site-assets/menu/rose-macaron.jpg"
+                  loading="lazy"
                   alt="玫瑰覆盆子馬卡龍"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -543,7 +544,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/matcha-macaron-600x450-e0f2f1.png",
+                    "/site-assets/menu/matcha-macaron.jpg",
                     "宇治抹茶柚子馬卡龍",
                     "NT$ 120",
                     "濃郁抹茶甘納許包裹日本高知縣柚子醬夾心，酸甜平衡。",
@@ -551,7 +552,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/matcha-macaron-400x300-e0f2f1.png"
+                  src="/site-assets/menu/matcha-macaron.jpg"
+                  loading="lazy"
                   alt="抹茶柚子馬卡龍"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -594,7 +596,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/salted-caramel-600x450-fff8e1.png",
+                    "/site-assets/menu/salted-caramel-macaron.jpg",
                     "布列塔尼海鹽焦糖馬卡龍",
                     "NT$ 110",
                     "手工熬煮焦糖醬搭配法國蓋朗德鹽之花，鹹甜交織不膩口。",
@@ -602,7 +604,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/salted-caramel-400x300-fff8e1.png"
+                  src="/site-assets/menu/salted-caramel-macaron.jpg"
+                  loading="lazy"
                   alt="海鹽焦糖馬卡龍"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -645,7 +648,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/earl-grey-macaron-600x450-efebe9.png",
+                    "/site-assets/menu/earl-grey-macaron.jpg",
                     "皇家伯爵奶茶馬卡龍",
                     "NT$ 110",
                     "浸製斯里蘭卡伯爵茶葉的濃郁鮮奶油內餡，佛手柑香氣迷人。",
@@ -653,7 +656,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/earl-grey-macaron-400x300-efebe9.png"
+                  src="/site-assets/menu/earl-grey-macaron.jpg"
+                  loading="lazy"
                   alt="伯爵奶茶馬卡龍"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -696,7 +700,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/lavender-blueberry-600x450-f3e5f5.png",
+                    "/site-assets/menu/lavender-blueberry-macaron.jpg",
                     "普羅旺斯薰衣草藍莓",
                     "NT$ 130",
                     "淡雅薰衣草花香融合新鮮手熬藍莓果泥，夢幻紫色調。",
@@ -704,7 +708,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/lavender-blueberry-400x300-f3e5f5.png"
+                  src="/site-assets/menu/lavender-blueberry-macaron.jpg"
+                  loading="lazy"
                   alt="薰衣草藍莓馬卡龍"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -747,7 +752,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/pistachio-macaron-600x450-e8f5e9.png",
+                    "/site-assets/menu/pistachio-macaron.jpg",
                     "西西里特級開心果馬卡龍",
                     "NT$ 130",
                     "嚴選義大利西西里島開心果研磨製成濃郁果仁奶油夾心。",
@@ -755,7 +760,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/pistachio-macaron-400x300-e8f5e9.png"
+                  src="/site-assets/menu/pistachio-macaron.jpg"
+                  loading="lazy"
                   alt="開心果馬卡龍"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -798,7 +804,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/lemon-macaron-600x450-fffde7.png",
+                    "/site-assets/menu/lemon-macaron.jpg",
                     "盛夏屏東黃檸檬馬卡龍",
                     "NT$ 110",
                     "新鮮現榨屏東檸檬汁調製微酸檸檬凝乳，清爽解膩首選。",
@@ -806,7 +812,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/lemon-macaron-400x300-fffde7.png"
+                  src="/site-assets/menu/lemon-macaron.jpg"
+                  loading="lazy"
                   alt="黃檸檬馬卡龍"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -849,7 +856,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/chocolate-macaron-600x450-efebe9.png",
+                    "/site-assets/menu/chocolate-macaron.jpg",
                     "法芙娜70%苦甜巧克馬卡龍",
                     "NT$ 120",
                     "採用法芙娜頂級巧克力製作甘納許，口感深邃且餘韻無窮。",
@@ -857,7 +864,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/chocolate-macaron-400x300-efebe9.png"
+                  src="/site-assets/menu/chocolate-macaron.jpg"
+                  loading="lazy"
                   alt="法式苦甜巧克馬卡龍"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -900,7 +908,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/strawberry-macaron-600x450-ffebee.png",
+                    "/site-assets/menu/strawberry-macaron.jpg",
                     "大湖草莓煉乳馬卡龍",
                     "NT$ 130",
                     "新鮮草莓凍乾碎粒融入香甜煉乳白巧夾心，甜蜜滋味。",
@@ -908,7 +916,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/strawberry-macaron-400x300-ffebee.png"
+                  src="/site-assets/menu/strawberry-macaron.jpg"
+                  loading="lazy"
                   alt="草莓煉乳馬卡龍"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -954,7 +963,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/vanilla-gelato-600x450-e3f2fd.png",
+                    "/site-assets/menu/vanilla-gelato.jpg",
                     "馬達加斯加香草義式冰淇淋",
                     "NT$ 150",
                     "使用天然香草豆莢，低乳脂製作，口感絲滑綿密不膩口。",
@@ -962,7 +971,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/vanilla-gelato-400x300-e3f2fd.png"
+                  src="/site-assets/menu/vanilla-gelato.jpg"
+                  loading="lazy"
                   alt="香草籽義式冰淇淋"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1011,7 +1021,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/matcha-gelato-600x450-f1f8e9.png",
+                    "/site-assets/menu/matcha-gelato.jpg",
                     "京都宇治濃抹茶冰淇淋",
                     "NT$ 160",
                     "雙倍小山園抹茶粉拌入，茶韻深厚微苦回甘，大人系風味。",
@@ -1019,7 +1029,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/matcha-gelato-400x300-f1f8e9.png"
+                  src="/site-assets/menu/matcha-gelato.jpg"
+                  loading="lazy"
                   alt="宇治抹茶冰淇淋"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1064,7 +1075,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/strawberry-gelato-600x450-fce4ec.png",
+                    "/site-assets/menu/berry-sorbet.jpg",
                     "手作鮮莓果粒雪酪 (Sorbet)",
                     "NT$ 150",
                     "0%乳脂肪，純粹以新鮮草莓果泥與天然果膠製成的冰涼清爽口感。",
@@ -1072,7 +1083,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/strawberry-gelato-400x300-fce4ec.png"
+                  src="/site-assets/menu/berry-sorbet.jpg"
+                  loading="lazy"
                   alt="鮮莓雪酪"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1117,7 +1129,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/mango-gelato-600x450-fff3e0.png",
+                    "/site-assets/menu/mango-gelato.jpg",
                     "台南玉井愛文芒果冰淇淋",
                     "NT$ 160",
                     "嚴選在地玉井愛文芒果，香氣濃郁飽滿，每一口都是夏天滋味。",
@@ -1125,7 +1137,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/mango-gelato-400x300-fff3e0.png"
+                  src="/site-assets/menu/mango-gelato.jpg"
+                  loading="lazy"
                   alt="愛文芒果冰淇淋"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1170,7 +1183,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/dark-chocolate-gelato-600x450-efebe9.png",
+                    "/site-assets/menu/dark-chocolate-gelato.jpg",
                     "比利時72%黑巧克力冰淇淋",
                     "NT$ 170",
                     "濃厚比利時黑可可豆製作，口感如絲絨般滑順，苦甜交織。",
@@ -1178,7 +1191,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/dark-chocolate-gelato-400x300-efebe9.png"
+                  src="/site-assets/menu/dark-chocolate-gelato.jpg"
+                  loading="lazy"
                   alt="黑巧冰淇淋"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1223,7 +1237,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/sesame-gelato-600x450-f5f5f5.png",
+                    "/site-assets/menu/black-sesame-gelato.jpg",
                     "濃香手作黑芝麻冰淇淋",
                     "NT$ 150",
                     "嚴選烘焙黑芝麻研磨成醬，香氣撲鼻，長輩與文青一致大愛。",
@@ -1231,7 +1245,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/sesame-gelato-400x300-f5f5f5.png"
+                  src="/site-assets/menu/black-sesame-gelato.jpg"
+                  loading="lazy"
                   alt="黑芝麻冰淇淋"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1276,7 +1291,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/mint-choc-gelato-600x450-e0f7fa.png",
+                    "/site-assets/menu/mint-choc-gelato.jpg",
                     "天然薄荷巧酥義式冰淇淋",
                     "NT$ 150",
                     "採用新鮮有機薄荷葉浸泡萃取，拌入手工巧克力脆片。",
@@ -1284,7 +1299,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/mint-choc-gelato-400x300-e0f7fa.png"
+                  src="/site-assets/menu/mint-choc-gelato.jpg"
+                  loading="lazy"
                   alt="薄荷巧酥冰淇淋"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1329,7 +1345,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/rum-raisin-gelato-600x450-fff8e1.png",
+                    "/site-assets/menu/rum-raisin-gelato.jpg",
                     "牙買加蘭姆酒漬葡萄冰淇淋",
                     "NT$ 160",
                     "葡萄乾浸泡於陳年蘭姆酒中數週，香氣醇厚，大人系微醺首選。",
@@ -1337,7 +1353,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/rum-raisin-gelato-400x300-fff8e1.png"
+                  src="/site-assets/menu/rum-raisin-gelato.jpg"
+                  loading="lazy"
                   alt="蘭姆葡萄冰淇淋"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1382,7 +1399,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/caramel-nut-gelato-600x450-fbe9e7.png",
+                    "/site-assets/menu/caramel-walnut-gelato.jpg",
                     "焦糖核桃脆片義式冰淇淋",
                     "NT$ 160",
                     "香濃焦糖冰淇淋基底，加入大量低溫烘烤的酥脆焦糖核桃碎。",
@@ -1390,7 +1407,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/caramel-nut-gelato-400x300-fbe9e7.png"
+                  src="/site-assets/menu/caramel-walnut-gelato.jpg"
+                  loading="lazy"
                   alt="焦糖核桃冰淇淋"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1438,7 +1456,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/matcha-cake-600x450-fff3e0.png",
+                    "/site-assets/menu/matcha-crepe-cake.jpg",
                     "宇治小山園若竹千層蛋糕",
                     "NT$ 180",
                     "超過30層手工薄餅，夾入濃郁抹茶卡士達，茶香回甘悠長。",
@@ -1446,7 +1464,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/matcha-cake-400x300-fff3e0.png"
+                  src="/site-assets/menu/matcha-crepe-cake.jpg"
+                  loading="lazy"
                   alt="小山園抹茶千層"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1489,7 +1508,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/basque-cheesecake-600x450-fbe9e7.png",
+                    "/site-assets/menu/basque-cheesecake.jpg",
                     "北海道原味半熟巴斯克乳酪",
                     "NT$ 160",
                     "高溫烘烤出焦糖香氣外皮，內餡滑順如乳酪冰淇淋般濃郁入口即化。",
@@ -1497,7 +1516,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/basque-cheesecake-400x300-fbe9e7.png"
+                  src="/site-assets/menu/basque-cheesecake.jpg"
+                  loading="lazy"
                   alt="巴斯克乳酪蛋糕"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1540,7 +1560,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/strawberry-shortcake-600x450-fce4ec.png",
+                    "/site-assets/menu/strawberry-shortcake.jpg",
                     "日式昭和草莓鮮奶油蛋糕",
                     "NT$ 170",
                     "蓬鬆戚風蛋糕體搭配清爽不膩的日本中澤鮮奶油與新鮮草莓。",
@@ -1548,7 +1568,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/strawberry-shortcake-400x300-fce4ec.png"
+                  src="/site-assets/menu/strawberry-shortcake.jpg"
+                  loading="lazy"
                   alt="草莓鮮奶油蛋糕"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1591,7 +1612,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/lemon-tart-600x450-fffde7.png",
+                    "/site-assets/menu/lemon-tart.jpg",
                     "法式酥脆檸檬凝乳塔",
                     "NT$ 150",
                     "手工塔皮香酥脆口，填滿酸V清香的檸檬凝乳與炙燒蛋白霜。",
@@ -1599,7 +1620,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/lemon-tart-400x300-fffde7.png"
+                  src="/site-assets/menu/lemon-tart.jpg"
+                  loading="lazy"
                   alt="法式老奶奶檸檬塔"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1642,7 +1664,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/chocolate-cake-600x450-efebe9.png",
+                    "/site-assets/menu/walnut-brownie.jpg",
                     "核桃威士忌巧克力布朗尼",
                     "NT$ 150",
                     "加入威士忌提味的紮實布朗尼，搭配烘烤核桃，加熱後帶有熔岩口感。",
@@ -1650,7 +1672,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/chocolate-cake-400x300-efebe9.png"
+                  src="/site-assets/menu/walnut-brownie.jpg"
+                  loading="lazy"
                   alt="經典布朗尼"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1693,7 +1716,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/earl-grey-cake-600x450-f3e5f5.png",
+                    "/site-assets/menu/earl-grey-chiffon.jpg",
                     "伯爵茶香戚風佐焦糖脆片",
                     "NT$ 160",
                     "茶香四溢的戚風蛋糕體，淋上伯爵鮮奶油與手工焦糖脆片。",
@@ -1701,7 +1724,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/earl-grey-cake-400x300-f3e5f5.png"
+                  src="/site-assets/menu/earl-grey-chiffon.jpg"
+                  loading="lazy"
                   alt="伯爵紅茶戚風"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1744,7 +1768,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/mont-blanc-600x450-e0f2f1.png",
+                    "/site-assets/menu/mont-blanc.jpg",
                     "法式栗子蒙布朗",
                     "NT$ 190",
                     "濃郁法國進口栗子泥細緻擠花，內層包裹香草香緹與糖漬栗子。",
@@ -1752,7 +1776,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/mont-blanc-400x300-e0f2f1.png"
+                  src="/site-assets/menu/mont-blanc.jpg"
+                  loading="lazy"
                   alt="蒙布朗栗子塔"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1795,7 +1820,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/tiramisu-600x450-fffde7.png",
+                    "/site-assets/menu/tiramisu.jpg",
                     "義式馬斯卡彭手作提拉米蘇",
                     "NT$ 160",
                     "手指餅乾吸飽濃縮咖啡與咖啡香甜酒，層層覆蓋濃郁馬斯卡彭起司。",
@@ -1803,7 +1828,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/tiramisu-400x300-fffde7.png"
+                  src="/site-assets/menu/tiramisu.jpg"
+                  loading="lazy"
                   alt="經典提拉米蘇"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1846,7 +1872,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/berry-tart-600x450-fce4ec.png",
+                    "/site-assets/menu/berry-tart.jpg",
                     "森林野莓卡士達酥塔",
                     "NT$ 170",
                     "滿鋪藍莓、覆盆子與黑莓，搭配香草卡士達內餡與酥脆塔皮。",
@@ -1854,7 +1880,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/berry-tart-400x300-fce4ec.png"
+                  src="/site-assets/menu/berry-tart.jpg"
+                  loading="lazy"
                   alt="綜合莓果塔"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1900,7 +1927,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/hand-drip-coffee-600x450-efebe9.png",
+                    "/site-assets/menu/hand-drip-coffee.jpg",
                     "衣索比亞 耶加雪菲 水洗",
                     "NT$ 160",
                     "帶有明亮的柑橘、茉莉花香與檸檬紅茶風味，口感清爽層次豐富。",
@@ -1908,7 +1935,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/hand-drip-coffee-400x300-efebe9.png"
+                  src="/site-assets/menu/hand-drip-coffee.jpg"
+                  loading="lazy"
                   alt="手沖單品咖啡"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1953,7 +1981,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/latte-600x450-fbe9e7.png",
+                    "/site-assets/menu/brown-sugar-latte.jpg",
                     "日暮手作黑糖拿鐵",
                     "NT$ 150",
                     "濃縮咖啡與小農鮮乳完美融合，表面炙燒手作黑糖脆片，香甜滑順。",
@@ -1961,7 +1989,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/latte-400x300-fbe9e7.png"
+                  src="/site-assets/menu/brown-sugar-latte.jpg"
+                  loading="lazy"
                   alt="日暮拿鐵"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -2006,7 +2035,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/cold-brew-600x450-e0f7fa.png",
+                    "/site-assets/menu/cold-brew.jpg",
                     "慢速冰釀 12小時冷萃咖啡",
                     "NT$ 170",
                     "歷經12小時低溫萃取，酒香發酵感與甘甜滑順的口感令人驚豔。",
@@ -2014,7 +2043,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/cold-brew-400x300-e0f7fa.png"
+                  src="/site-assets/menu/cold-brew.jpg"
+                  loading="lazy"
                   alt="冰滴咖啡"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -2059,7 +2089,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/matcha-latte-600x450-e8f5e9.png",
+                    "/site-assets/menu/matcha-latte.jpg",
                     "宇治小山園職人抹茶拿鐵",
                     "NT$ 160",
                     "正宗小山園抹茶刷製，注入香濃蒸氣鮮奶，層次絲滑細緻。",
@@ -2067,7 +2097,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/matcha-latte-400x300-e8f5e9.png"
+                  src="/site-assets/menu/matcha-latte.jpg"
+                  loading="lazy"
                   alt="小山園抹茶拿鐵"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -2112,7 +2143,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/earl-grey-tea-600x450-fff8e1.png",
+                    "/site-assets/menu/earl-grey-tea.jpg",
                     "英國皇家伯爵葉茶 (可回沖)",
                     "NT$ 140",
                     "精選斯里蘭卡紅茶搭配天然佛手柑精油，茶湯清澈帶怡人果香。",
@@ -2120,7 +2151,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/earl-grey-tea-400x300-fff8e1.png"
+                  src="/site-assets/menu/earl-grey-tea.jpg"
+                  loading="lazy"
                   alt="皇家伯爵茶"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -2165,7 +2197,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/rose-blooming-tea-600x450-f3e5f5.png",
+                    "/site-assets/menu/rose-chamomile-tea.jpg",
                     "法式有機玫瑰洋甘菊茶",
                     "NT$ 150",
                     "無咖啡因花草茶，結合玫瑰花瓣與德國洋甘菊，療癒安神。",
@@ -2173,7 +2205,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/rose-blooming-tea-400x300-f3e5f5.png"
+                  src="/site-assets/menu/rose-chamomile-tea.jpg"
+                  loading="lazy"
                   alt="玫瑰花草茶"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -2218,7 +2251,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/citrus-sparkling-600x450-e0f2f1.png",
+                    "/site-assets/menu/lemon-sparkling-coffee.jpg",
                     "西西里特調檸檬氣泡咖啡",
                     "NT$ 160",
                     "濃縮咖啡、屏東新鮮檸檬汁與強氣泡水，夏日消暑絕佳靈感來源。",
@@ -2226,7 +2259,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/citrus-sparkling-400x300-e0f2f1.png"
+                  src="/site-assets/menu/lemon-sparkling-coffee.jpg"
+                  loading="lazy"
                   alt="西西里檸檬氣泡"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -2271,7 +2305,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/honey-yuzu-tea-600x450-fff3e0.png",
+                    "/site-assets/menu/honey-yuzu-tea.jpg",
                     "韓國手作蜂蜜柚子茶 (冰/熱)",
                     "NT$ 130",
                     "酸甜清香的柚子果肉搭配天然純正龍眼蜂蜜，暖心又潤喉。",
@@ -2279,7 +2313,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/honey-yuzu-tea-400x300-fff3e0.png"
+                  src="/site-assets/menu/honey-yuzu-tea.jpg"
+                  loading="lazy"
                   alt="蜂蜜柚子茶"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -2324,7 +2359,7 @@ function Index() {
                 className="relative h-48 sm:h-56 overflow-hidden cursor-pointer group"
                 onClick={() =>
                   openLightbox(
-                    "/site-assets/hot-cocoa-600x450-fbe9e7.png",
+                    "/site-assets/menu/hot-cocoa.jpg",
                     "法芙娜棉花糖法式熱可可",
                     "NT$ 150",
                     "法芙娜可可粉結合溫熱小農鮮乳，鋪上炙燒手作棉花糖，療癒滿分。",
@@ -2332,7 +2367,8 @@ function Index() {
                 }
               >
                 <img
-                  src="/site-assets/hot-cocoa-400x300-fbe9e7.png"
+                  src="/site-assets/menu/hot-cocoa.jpg"
+                  loading="lazy"
                   alt="法式熱可可"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
