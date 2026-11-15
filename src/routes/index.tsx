@@ -497,6 +497,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/rose-macaron.jpg"
+                  loading="lazy"
                   alt="玫瑰覆盆子馬卡龍"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -552,6 +553,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/matcha-macaron.jpg"
+                  loading="lazy"
                   alt="抹茶柚子馬卡龍"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -603,6 +605,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/salted-caramel-macaron.jpg"
+                  loading="lazy"
                   alt="海鹽焦糖馬卡龍"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -654,6 +657,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/earl-grey-macaron.jpg"
+                  loading="lazy"
                   alt="伯爵奶茶馬卡龍"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -705,6 +709,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/lavender-blueberry-macaron.jpg"
+                  loading="lazy"
                   alt="薰衣草藍莓馬卡龍"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -756,6 +761,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/pistachio-macaron.jpg"
+                  loading="lazy"
                   alt="開心果馬卡龍"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -807,6 +813,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/lemon-macaron.jpg"
+                  loading="lazy"
                   alt="黃檸檬馬卡龍"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -858,6 +865,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/chocolate-macaron.jpg"
+                  loading="lazy"
                   alt="法式苦甜巧克馬卡龍"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -909,6 +917,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/strawberry-macaron.jpg"
+                  loading="lazy"
                   alt="草莓煉乳馬卡龍"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -963,6 +972,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/vanilla-gelato.jpg"
+                  loading="lazy"
                   alt="香草籽義式冰淇淋"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1020,6 +1030,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/matcha-gelato.jpg"
+                  loading="lazy"
                   alt="宇治抹茶冰淇淋"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1073,6 +1084,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/berry-sorbet.jpg"
+                  loading="lazy"
                   alt="鮮莓雪酪"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1126,6 +1138,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/mango-gelato.jpg"
+                  loading="lazy"
                   alt="愛文芒果冰淇淋"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1179,6 +1192,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/dark-chocolate-gelato.jpg"
+                  loading="lazy"
                   alt="黑巧冰淇淋"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1232,6 +1246,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/black-sesame-gelato.jpg"
+                  loading="lazy"
                   alt="黑芝麻冰淇淋"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1285,6 +1300,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/mint-choc-gelato.jpg"
+                  loading="lazy"
                   alt="薄荷巧酥冰淇淋"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1338,6 +1354,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/rum-raisin-gelato.jpg"
+                  loading="lazy"
                   alt="蘭姆葡萄冰淇淋"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1391,6 +1408,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/caramel-walnut-gelato.jpg"
+                  loading="lazy"
                   alt="焦糖核桃冰淇淋"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1447,6 +1465,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/matcha-crepe-cake.jpg"
+                  loading="lazy"
                   alt="小山園抹茶千層"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1498,6 +1517,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/basque-cheesecake.jpg"
+                  loading="lazy"
                   alt="巴斯克乳酪蛋糕"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1549,6 +1569,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/strawberry-shortcake.jpg"
+                  loading="lazy"
                   alt="草莓鮮奶油蛋糕"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1600,6 +1621,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/lemon-tart.jpg"
+                  loading="lazy"
                   alt="法式老奶奶檸檬塔"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1651,6 +1673,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/walnut-brownie.jpg"
+                  loading="lazy"
                   alt="經典布朗尼"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1702,6 +1725,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/earl-grey-chiffon.jpg"
+                  loading="lazy"
                   alt="伯爵紅茶戚風"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1753,6 +1777,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/mont-blanc.jpg"
+                  loading="lazy"
                   alt="蒙布朗栗子塔"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1804,6 +1829,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/tiramisu.jpg"
+                  loading="lazy"
                   alt="經典提拉米蘇"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1855,6 +1881,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/berry-tart.jpg"
+                  loading="lazy"
                   alt="綜合莓果塔"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1909,6 +1936,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/hand-drip-coffee.jpg"
+                  loading="lazy"
                   alt="手沖單品咖啡"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -1962,6 +1990,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/brown-sugar-latte.jpg"
+                  loading="lazy"
                   alt="日暮拿鐵"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -2015,6 +2044,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/cold-brew.jpg"
+                  loading="lazy"
                   alt="冰滴咖啡"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -2068,6 +2098,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/matcha-latte.jpg"
+                  loading="lazy"
                   alt="小山園抹茶拿鐵"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -2121,6 +2152,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/earl-grey-tea.jpg"
+                  loading="lazy"
                   alt="皇家伯爵茶"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -2174,6 +2206,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/rose-chamomile-tea.jpg"
+                  loading="lazy"
                   alt="玫瑰花草茶"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -2227,6 +2260,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/lemon-sparkling-coffee.jpg"
+                  loading="lazy"
                   alt="西西里檸檬氣泡"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -2280,6 +2314,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/honey-yuzu-tea.jpg"
+                  loading="lazy"
                   alt="蜂蜜柚子茶"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
@@ -2333,6 +2368,7 @@ function Index() {
               >
                 <img
                   src="/site-assets/menu/hot-cocoa.jpg"
+                  loading="lazy"
                   alt="法式熱可可"
                   className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
                 />
