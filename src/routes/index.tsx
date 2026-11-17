@@ -335,7 +335,7 @@ function Index() {
             <div className="relative px-2 sm:px-0">
               <div className="relative mx-auto max-w-md lg:max-w-none rounded-2xl overflow-hidden shadow-2xl border-4 border-white">
                 <img
-                  src="/site-assets/nichimuracho-cafe-600x700-f5f0ec.png"
+                  src="/site-assets/menu/nichimuracho-cafe-exterior.jpg"
                   alt="日暮町咖啡廳外觀與環境"
                   className="w-full h-[320px] sm:h-[420px] lg:h-[480px] object-cover hover:scale-105 transition duration-700"
                 />
