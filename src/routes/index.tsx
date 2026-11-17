@@ -2435,7 +2435,7 @@ function Index() {
                 aria-hidden={slideIndex !== 0}
               >
                 <img
-                  src="/site-assets/architecture-exterior-1200x700-d7c5b6.png"
+                  src="/site-assets/gallery/architecture-exterior.jpg"
                   alt="老宅建築外觀"
                   className="w-full h-full object-cover"
                 />
@@ -2459,7 +2459,7 @@ function Index() {
                 aria-hidden={slideIndex !== 1}
               >
                 <img
-                  src="/site-assets/interior-lighting-space-1200x700-f5f0ec.png"
+                  src="/site-assets/gallery/interior-lighting-space.jpg"
                   alt="室內明亮空間"
                   className="w-full h-full object-cover"
                 />
@@ -2483,7 +2483,7 @@ function Index() {
                 aria-hidden={slideIndex !== 2}
               >
                 <img
-                  src="/site-assets/creator-workspace-seats-1200x700-e8ded4.png"
+                  src="/site-assets/gallery/creator-workspace-seats.jpg"
                   alt="創作者座位區"
                   className="w-full h-full object-cover"
                 />
@@ -2507,7 +2507,7 @@ function Index() {
                 aria-hidden={slideIndex !== 3}
               >
                 <img
-                  src="/site-assets/sunlit-window-corner-1200x700-f8e5e5.png"
+                  src="/site-assets/gallery/sunlit-window-corner.jpg"
                   alt="陽光窗邊席"
                   className="w-full h-full object-cover"
                 />
@@ -2531,7 +2531,7 @@ function Index() {
                 aria-hidden={slideIndex !== 4}
               >
                 <img
-                  src="/site-assets/patisserie-display-cabinet-1200x700-efebe9.png"
+                  src="/site-assets/gallery/patisserie-display-cabinet.jpg"
                   alt="手作甜點櫃"
                   className="w-full h-full object-cover"
                 />
@@ -2555,7 +2555,7 @@ function Index() {
                 aria-hidden={slideIndex !== 5}
               >
                 <img
-                  src="/site-assets/evening-magic-hour-1200x700-3f3027.png"
+                  src="/site-assets/gallery/evening-magic-hour.jpg"
                   alt="日暮魔幻時刻"
                   className="w-full h-full object-cover"
                 />
